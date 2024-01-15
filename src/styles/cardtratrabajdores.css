@@ -1,0 +1,189 @@
+.colocacion-trabajadores {
+  padding-left: 6cm;
+  display: grid;
+  grid-template-columns: repeat(
+    5,
+    1fr
+  ); /* Crea 5 columnas, el número máximo de elementos en una fila */
+  grid-template-rows: auto auto auto; /* 3 filas */
+  grid-gap: 5px; /* Espacio entre filas y columnas */
+  grid-template-areas:
+    "trabajador1 trabajador2 trabajador3 . ."
+    "trabajador4 trabajador5 trabajador6 trabajador7 trabajador8"
+    "trabajador9 trabajador10 trabajador11 trabajador12 trabajador13";
+}
+
+/* Estilos para cada trabajador */
+.trabajador1 {
+  grid-area: trabajador1;
+  width: 200px;
+  height: 200px;
+  margin-left: 101%;
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+.trabajador2 {
+  grid-area: trabajador2;
+  width: 200px;
+  height: 200px;
+  margin-left: 101%;
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+.trabajador3 {
+  grid-area: trabajador3;
+  width: 200px;
+  height: 200px;
+  margin-left: 101%;
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+.trabajador4 {
+  grid-area: trabajador4;
+  width: 200px;
+  height: 200px;
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+.trabajador5 {
+  grid-area: trabajador5;
+  width: 200px;
+  height: 200px;
+
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+.trabajador6 {
+  grid-area: trabajador6;
+  width: 200px;
+  height: 200px;
+
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+.trabajador7 {
+  grid-area: trabajador7;
+  width: 200px;
+  height: 200px;
+
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+.trabajador8 {
+  grid-area: trabajador8;
+  width: 200px;
+  height: 200px;
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+
+.trabajador9 {
+  grid-area: trabajador9;
+  width: 200px;
+  height: 200px;
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+.trabajador10 {
+  grid-area: trabajador10;
+  width: 200px;
+  height: 200px;
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+.trabajador11 {
+  grid-area: trabajador11;
+  width: 200px;
+  height: 200px;
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+.trabajador12 {
+  grid-area: trabajador12;
+  width: 200px;
+  height: 200px;
+
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+.trabajador13 {
+  grid-area: trabajador13;
+  width: 200px;
+  height: 200px;
+
+  position: relative; /* Establece como contenedor relativo */
+  display: inline-block;
+}
+/* Estilos para las imágenes */
+.perdro1 {
+  width: 70%; /* O cualquier ancho deseado */
+  border-radius: 335%;
+}
+.manolo1 {
+  position: absolute; /* Posicionamiento absoluto respecto al contenedor relativo */
+  bottom: 60px; /* Ajusta la posición desde la parte inferior */
+  right: 60px; /* Ajusta la posición desde la derecha */
+  width: 40px; /* Ajusta el tamaño del logo según sea necesario */
+  height: auto; /* Mantiene la relación de aspecto del logo */
+}
+/* Estilos para los párrafos */
+.text1 {
+  padding-top: 3%;
+  font-family: "Poppins", sans-serif;
+  color: #4c4e52;
+  margin-left: 4%;
+}
+@media (max-width: 1024px) {
+  .colocacion-trabajadores {
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    grid-template-areas:
+      "trabajador1 trabajador2 trabajador3 ."
+      "trabajador4 trabajador5 trabajador6 trabajador7"
+      "trabajador8 trabajador9 trabajador10 trabajador11"
+      "trabajador12 trabajador13 . .";
+  }
+}
+
+/* Para tabletas (hasta 768px) */
+@media (max-width: 768px) {
+  .colocacion-trabajadores {
+    padding-left: 4cm; /* Menor padding */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-template-areas:
+      "trabajador1 trabajador2 trabajador3"
+      "trabajador4 trabajador5 trabajador6"
+      "trabajador7 trabajador8 trabajador9"
+      "trabajador10 trabajador11 trabajador12"
+      "trabajador13 . .";
+  }
+}
+
+/* Para teléfonos móviles grandes (hasta 600px) */
+@media (max-width: 600px) {
+  .colocacion-trabajadores {
+    padding-left: 2cm; /* Aún menor padding */
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    grid-template-areas:
+      "trabajador1 trabajador2"
+      "trabajador3 trabajador4"
+      "trabajador5 trabajador6"
+      "trabajador7 trabajador8"
+      "trabajador9 trabajador10"
+      "trabajador11 trabajador12"
+      "trabajador13 .";
+  }
+}
+
+/* Para teléfonos móviles pequeños (hasta 480px) */
+@media (max-width: 480px) {
+  .colocacion-trabajadores {
+    padding-left: 1cm; /* El menor padding */
+    grid-template-columns: 1fr; /* 1 columna */
+    grid-template-areas:
+      "trabajador1"
+      "trabajador2"
+      "trabajador3"
+      /* ...continuar para todos los trabajadores... */
+      "trabajador13";
+  }
+}
