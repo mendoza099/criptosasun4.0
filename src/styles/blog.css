@@ -1,0 +1,55 @@
+.totalcuantica {
+  display: flex;
+  box-shadow: 20px;
+  flex-wrap: wrap; /* Añadir para manejar el flujo de múltiples tarjetas */
+  justify-content: space-around; /* Ajustar la distribución de las tarjetas */
+}
+
+.cuantica {
+  background-color: #5f6166; /* Fondo blanco para la tarjeta */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra para efecto 3D */
+  border-radius: 20px; /* Bordes redondeados */
+  margin: 10px; /* Espaciado entre tarjetas */
+  padding: 20px; /* Espaciado interno */
+  width: 27%; /* Ancho de cada tarjeta */
+  gap: 5px; /* Espaciado entre elementos dentro de la tarjeta */
+  transition: 0.3s; /* Transición suave para efectos hover */
+  margin-bottom: 5%;
+}
+
+.cuantica:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Efecto hover para sombra más pronunciada */
+}
+
+.jorge {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: white;
+  width: 100%; /* Ajustar el ancho al de la tarjeta */
+}
+
+/* Añadir estilos para la imagen dentro de la tarjeta */
+.angel {
+  width: 100%; /* Ajustar el ancho al de la tarjeta */
+  height: auto; /* Mantener la proporción de la imagen */
+  border-top-left-radius: 10px; /* Bordes redondeados en la parte superior de la imagen */
+  border-top-right-radius: 10px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #24d49e; /* Color de fondo azul */
+  color: white; /* Texto blanco */
+  border-radius: 5px; /* Bordes redondeados */
+  text-align: center;
+  text-decoration: none; /* Eliminar subrayado del texto del enlace */
+  font-weight: bold; /* Texto en negrita */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+  margin-left: 22%;
+}
+
+.btn:hover {
+  background-color: #faa123; /* Cambiar color de fondo al pasar el ratón */
+  color: #fff; /* Mantener texto blanco */
+}

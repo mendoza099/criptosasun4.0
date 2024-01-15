@@ -1,0 +1,28 @@
+.menuimagecontainer02 {
+  display: flex;
+  margin-top: 3%;
+  margin-left: 6%;
+  width: 90%;
+  margin-bottom: 6%;
+}
+.imgscard1 {
+  width: 250px;
+  width: 270px;
+  margin-left: 5%;
+}
+.card-titule2 {
+  font-family: "Poppins", sans-serif;
+  color: #4c4e52;
+  font-size: 32px;
+}
+.card-info2 {
+  font-family: "Poppins", sans-serif;
+  color: #4c4e52;
+  font-size: 20px;
+}
+.titulo-imagen2 {
+  max-width: 7%;
+  margin-left: 46%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
