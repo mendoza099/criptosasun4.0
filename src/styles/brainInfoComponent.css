@@ -14,16 +14,17 @@
   background-position: center;
   background-repeat: no-repeat;
   padding-left: 7%;
+  margin-top: -3%;
 }
 
 .icononos {
-  background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_28/v1704991665/Imagen1_1_1_qvqhew.png");
+  background-image: url("https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_25/v1704991665/Imagen1_1_1_qvqhew.png");
   background-repeat: no-repeat;
 
   padding-left: 28px;
 }
 .textoicononos1 {
-  width: 60%;
+  width: 70%;
   font-size: 20px;
 }
 .textoicononos2 {

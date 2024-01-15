@@ -1,71 +1,61 @@
 import React from 'react';
-import '../../styles/homecard2.css'; // Asegúrate de crear un archivo CSS con los estilos necesarios
+import '../../styles/homecard2.css';
 
-const HomeCard = () => {
+const HomeCard2 = () => {
     return (
-        <>
-            <img className="titulo-imagen2" src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704649490/B%C3%81SICO_ISOTIPO-VECTORIZADO_phclc2.png" alt="¿Qué es criptosasun?" />
-            <div className="menuimagecontainer02" >
-
-                <div className="card2" style={{ margin: "20px" }}>
-
-                    <div className="cardbody1">
-                        <img className='imgscard1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1705177484/Dise%C3%B1o_sin_t%C3%ADtulo__5___1_-removebg-preview_yeyq1h.png" alt="" />
-                        <h1 className="card-titule2">Bateria Virtual</h1>
-
-                        <p className="card-info2" style={{ color: "#4c4e52", fontFamily: "Poppins, sans-serif" }}>
-                            <ul>
-                                <li>Representación de las relaciones entre entornos complejos y la conducta de los agentes.</li>
-                                <li>Evolución basada en Aprendizaje Reforzado y Algoritmos Genéticos.</li>
-                                <li>Estructura apoyada en la Teoria de Categorías.</li>
-
-                            </ul>
-                        </p>
-                    </div>
+        <div className="gale">
+            <div className="mario">
+                <div className="infoSectionCustom" id="adaptiveSystems">
+                    <h2 className='headerCustom'>Batería Virtual</h2>
+                    <p className='textCustom'>
+                        <ul>
+                            <li>Sistema adaptativo operando en el mercado eléctrico.</li>
+                            <li>Estrategia de arbitraje entre los tres segmentos del mercado.</li>
+                            <li>Modelo de negocio 50-50 con los socios/clientes del mercado.</li>
+                            <li>Enfocado a apalancar las inversiones en sistemas reversibles como son los Sistemas híbridos, cargadores de vehículos eléctricos. etc...</li>
+                        </ul>
+                    </p>
                 </div>
-
-                <div className="card2" style={{ margin: "20px" }}>
-
-                    <div className="card-body1">
-                        <img className='imgscard1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1705177226/Dise%C3%B1o_sin_t%C3%ADtulo_7_1_ajutgk.png" alt="" />
-                        <h1 className="card-titule2" >
-                            Quantum Market
-                        </h1>
-
-                        <p className="card-info2" >
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga sit, nulla fugiat cumque </li>
-                                <li>Evolución basada en Aprendizaje Reforzado y Algoritmos Genéticos.</li>
-                                <li>Estructura apoyada en la Teoria de Categorías.</li>
-
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-
-                <div className="card2" style={{ margin: "20px" }}>
-
-                    <div className="card-body1">
-                        <img className='imgscard1' src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1705177485/Dise%C3%B1o_sin_t%C3%ADtulo__1_-removebg-preview_j2hrcm.png" alt="" />
-                        <h1 className="card-titule2">
-                            Lorem ipsum dolor
-                        </h1>
-
-                        <p className="card-info2" style={{ color: "#4c4e52", fontFamily: "Poppins, sans-serif" }}>
-                            <ul>
-                                <li>Representación de las relaciones entre entornos complejos y la conducta de los agentes.</li>
-                                <li>Evolución basada en Aprendizaje Reforzado y Algoritmos Genéticos.</li>
-                                <li>Estructura apoyada en la Teoria de Categorías.</li>
-
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-
-
+                <img src="https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_300/v1705177484/Dise%C3%B1o_sin_t%C3%ADtulo__5___1_-removebg-preview_yeyq1h.png" alt="" className="mendo" />
             </div>
-        </>
+
+            <div className="mario2">
+
+                <img src="https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_300/v1705177226/Dise%C3%B1o_sin_t%C3%ADtulo_7_1_ajutgk.png" alt="" className="mendo" />
+                <div className="infoSectionCustom" id="adaptiveSystems">
+                    <h2 className='headerCustom'>Quantum Market</h2>
+                    <p className='textCustom'>
+                        <ul>
+                            <li>Infraestructura de Mercado orientada a la obtención de una licencia de Sistema Multilateral de Negociación.</li>
+                            <li>Protocolo de pruebas establecido con la CNMV en el Sandbox de la Dirección General del Tesoro.</li>
+                            <li>Utiliza la arquitectura NQT para conseguir un sistema de transacciones descentralizado.</li>
+                            <li>Sistema transaccional con igualdad de condiciones para todos los intervinientes en el mercado.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div className="mario3">
+                <div className="infoSectionCustom" id="adaptiveSystems">
+                    <h2 className='headerCustom'>Kiwih</h2>
+                    <p className='textCustom'>
+                        <ul>
+                            <li>Es una estructura financiera innovadora con el objetivo de posibilitar a los inversores minoristas un nuevo instrumento financiero para invertir en los mercados energéticos. </li>
+                            <li>El instrumento se basa en la titulización de Hidrogeno almacenado.</li>
+                            <li>El valor del título denominado Kiwih es equivalente a 30 gramos de hidrogeno o 1 KWh de energía.</li>
+                            <li>El Kiwih cotizara en el Quantum Market.</li>
+                            <li>Primer vehículo de inversión mundial para poder invertir directamente en activos energéticos.</li>
+                        </ul>
+                    </p>
+                </div>
+                <a href="https://kiwih.org/">
+                    <img src="https://res.cloudinary.com/dwkb2dk5r/image/upload/c_scale,w_300/v1705322322/Kiwih_By_Criptosasun_uzwe3e.png" alt="" className="mendo1" />
+                </a>
+            </div>
+
+
+        </div>
     );
 };
 
-export default HomeCard;
+export default HomeCard2;
