@@ -32,7 +32,7 @@ const BrainInfoComponent = () => {
 
                 <div className="info-section" id="sistemas">
                     <h2 className='icononos '>Dispositivos Neuro-Cuánticos<br></br>
-                        <p className='tamaño'>NeuroQuantum Transcender (NQT)</p></h2>
+                    </h2><p className='tamaño'>NeuroQuantum Transcender (NQT)</p>
                     <ul>
                         <li>Revolución
                             en la computación Neuromórfica</li>

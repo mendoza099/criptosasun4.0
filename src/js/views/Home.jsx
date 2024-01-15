@@ -51,7 +51,7 @@ export const Home = () => {
 							Inteligencia Artificial (IA) a diferentes sectores para optimizar los procesos y generar valor.</p>
 
 						<div className="titulo3">
-							<iframe className="triangulo" width="560" height="315" src="https://www.youtube.com/embed/-cr9DzMvInM?si=u3BMVvxtm3hEBsW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							<iframe className="triangulo" width="560" height="315" src="https://www.youtube.com/embed/-cr9DzMvInM?si=u3BMVvxtm3hEBsW8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
 							<p className="titulo4">Nuestro <strong>objetivo</strong>  es desarrollar sistemas que generen <strong>riqueza</strong> para toda la
 								sociedad, a través de la <strong>tecnología</strong>.<br></br>
 								SABEMOS que <strong>el futuro se construye cada día</strong>, y esa es la ilusión que ilumina
@@ -151,7 +151,7 @@ export const Home = () => {
 					<div className="textoequipo">
 						<p>Nuestro equipo de expertos está listo para llevar tus ideas a la realidad. No importa el
 							tamaño o la complejidad de tu proyecto, nos comprometemos a proporcionar soluciones
-							de alta calidad que cumplen con tus objetivos y superan tus expectativas. <hr></hr>¡Ponte en contacto con nosotros hoy para comenzar!
+							de alta calidad que cumplen con tus objetivos y superan tus expectativas.¡Ponte en contacto con nosotros hoy para comenzar!
 
 						</p>
 					</div>
