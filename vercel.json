@@ -4,7 +4,7 @@
     {
       "src": "/.*bundle.js$",
       "headers": { "cache-control": "s-maxage=31536000,immutable" },
-      "dest": "/public/bundle.js"
+      "dest": "/workspace/criptosasun4.0/public/bundle.js"
     },
     {
       "src": "/(.+)\\.([a-zA-Z]{2,4})$",
@@ -14,7 +14,7 @@
     {
       "src": "/(.*)",
       "headers": { "cache-control": "s-maxage=0" },
-      "dest": "/public/index.html"
+      "dest": "/workspace/criptosasun4.0/public/index.html"
     }
   ]
 }
