@@ -1,21 +1,20 @@
 {
   "version": 2,
-
   "routes": [
     {
       "src": "/.*bundle.js$",
       "headers": { "cache-control": "s-maxage=31536000,immutable" },
-      "dest": "/bundle.js"
+      "dest": "/public/bundle.js"
     },
     {
       "src": "/(.+)\\.([a-zA-Z]{2,4})$",
       "headers": { "cache-control": "s-maxage=31536000,immutable" },
-      "dest": "/$1.$2"
+      "dest": "/public/$1.$2"
     },
     {
       "src": "/(.*)",
       "headers": { "cache-control": "s-maxage=0" },
-      "dest": "/index.html"
+      "dest": "/public/index.html"
     }
   ]
 }
