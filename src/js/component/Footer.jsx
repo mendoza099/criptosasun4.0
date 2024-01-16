@@ -8,9 +8,9 @@ export const Footer = () => (
             <img src="https://res.cloudinary.com/dwkb2dk5r/image/upload/v1704970641/Sin_t%C3%ADtulo-2__2_-removebg-preview_via5ey.png" alt="Imagen Izquierda" className="imagen11" />
             <p className="texto43">Aviso legal
                 Política de privacidad
-                Política de cookies
+                Política de cookies <p className="texto44">© 2023 Criptosasun S.L..U. All rignts reserved.</p>
             </p>
-            <p className="texto44">© 2023 Criptosasun S.L..U. All rignts reserved.</p>
+
 
             <div
                 className="simbolo"

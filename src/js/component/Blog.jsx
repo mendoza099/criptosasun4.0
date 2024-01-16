@@ -29,7 +29,7 @@ const Blog = () => {
 
                                 Son también los códigos que protegen los protocolos de seguridad de las criptomonedas y de las firmas digitales con las que las instituciones oficiales y los particulares llevan a cabo sus transacciones electrónicas.
 
-                                Romper los códigos algorítmicos en formato RSA es el empeño de las compañías tecnológicas de vanguardia de Estados Unidos, China, Rusia, Alemania, Francia y otras naciones y el motivo por el que invierten cada año cientos de millones de dólares, euros o yens en una desenfrenada carrera contra reloj para obtener la nueva piedra filosofal que les permita ser los primeros en descifrar los secretos mejor guardados.<a href="URL_ENLACE" className="enlace-sitio-web">Visitar sitio web</a>.</p>
+                                Romper los códigos algorítmicos en formato RSA es el empeño de las compañías tecnológicas de vanguardia de Estados Unidos, China, Rusia, Alemania, Francia y otras naciones y el motivo por el que invierten cada año cientos de millones de dólares, euros o yens en una desenfrenada carrera contra reloj para obtener la nueva piedra filosofal que les permita ser los primeros en descifrar los secretos mejor guardados.<a href="https://www.elradar.es/tecnologias-cuanticas-criptosasun-utiliza-las-redes-neuronales-para-desencriptar-las-claves-privadas-del-rsa/" className="enlace-sitio-web">Visitar sitio web</a>.</p>
                         </div>
                         <button onClick={toggleText1} className="buttonSaberMas">
                             {isExpanded1 ? 'Ver Menos' : 'Saber Más'}
