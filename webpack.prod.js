@@ -7,7 +7,7 @@ module.exports = merge(common, {
   mode: "production",
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, "public"), // Asegura que la salida sea en el directorio 'public'
+    path: path.resolve(__dirname, "build"), // Asegura que la salida sea en el directorio 'public'
     publicPath: "./",
   },
   plugins: [

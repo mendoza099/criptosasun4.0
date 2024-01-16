@@ -26,7 +26,7 @@ module.exports = merge(common, {
     allowedHosts: "all",
     historyApiFallback: true,
     static: {
-      directory: path.resolve(__dirname, "public"), // Cambiado de "dist" a "public"
+      directory: path.resolve(__dirname, "build"), // Cambiado de "dist" a "public"
     },
     client: {
       webSocketURL: publicUrl,
