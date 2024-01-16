@@ -8,7 +8,7 @@ module.exports = merge(common, {
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "build"), // Asegura que la salida sea en el directorio 'public'
-    publicPath: "./",
+    publicPath: "/",
   },
   plugins: [
     new Dotenv({
