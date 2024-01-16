@@ -46,7 +46,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      favicon: "/workspace/criptosasun4.0/BÁSICO_ISOTIPO-VECTORIZADO.ico",
+      favicon: "BÁSICO_ISOTIPO-VECTORIZADO.ico",
       template: "template.html",
     }),
     new Dotenv({ safe: true, systemvars: true }),
